@@ -18,9 +18,10 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug
+          rename app/build/outputs/apk/debug/app-debug.apk AuroraStore-debug.apk app/build/outputs/apk/debug/app-debug.apk
 
       - name: Publish Artifact
         uses: actions/upload-artifact@main
         with:
           name: build
-          path: 'app/build/outputs/*'
+          path: 'app/build/outputs/apk/debug/*'

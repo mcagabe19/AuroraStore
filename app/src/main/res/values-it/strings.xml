@@ -257,7 +257,6 @@
     <string name="pref_abandon_session_desc">Cancellare le sessioni di installazione in sospeso o abbandonate</string>
     <string name="pref_abandon_session">Cancella sessioni di installazione forzatamente</string>
     <string name="onboarding_permission_installer">Autorizzazione installatore</string>
-    <string name="onboarding_permission_esm_desc">Necessario nei dispositivi che eseguono Android 11 o superiore, oltre all’accesso all’archivio esterno</string>
     <string name="onboarding_permission_esm">Gestore archiviazione esterna</string>
     <string name="onboarding_permission_esa">Accesso archiviazione esterna</string>
     <string name="onboarding_welcome_select">Come va\?</string>
@@ -349,9 +348,9 @@
     <string name="toast_export_success">Configurazione del dispositivo esportata</string>
     <string name="pref_updates_extended_desc">Cerca anche nuove versioni delle app disabilitate</string>
     <string name="pref_updates_extended">Aggiornamenti estesi</string>
-    <string name="app_updater_service_notif_text">Abilita lo scaricamento di app nello sfondo</string>
-    <string name="app_updater_service_notif_title">Scaricamento delle app nello sfondo</string>
-    <string name="notification_channel_updater_service">Servizio di scaricamento nello sfondo delle app</string>
+    <string name="app_updater_service_notif_text">Abilita lo scaricamento di app in background</string>
+    <string name="app_updater_service_notif_title">Scaricamento delle app in background</string>
+    <string name="notification_channel_updater_service">Servizio di scaricamento delle app in background</string>
     <string name="pref_install_mode_am">Installatore AM.</string>
     <string name="account_anonymous_insecure">Anonimo (non sicuro)</string>
     <string name="installer_am_unavailable">Installa App Manager o cambia il programma di installazione.</string>
